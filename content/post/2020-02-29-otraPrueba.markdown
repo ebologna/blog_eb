@@ -2,7 +2,7 @@
 title: Otra Prueba
 author: matias
 date: '2020-02-29'
-slug: prueba
+slug: otra_prueba
 categories: []
 tags: []
 subtitle: ''
@@ -16,6 +16,7 @@ image:
   preview_only: no
 projects: []
 ---
+
 
 
 

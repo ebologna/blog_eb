@@ -2,7 +2,7 @@
 title: Otra Prueba
 author: matias
 date: '2020-02-29'
-slug: prueba
+slug: otra_prueba
 categories: []
 tags: []
 subtitle: ''
@@ -20,6 +20,7 @@ projects: []
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 
 ## R Markdown
 
