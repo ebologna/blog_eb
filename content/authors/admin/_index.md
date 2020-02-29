@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Eduardo León Bologna
 
 # Username (this should match the folder name)
 authors:
@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Profesor de Estadística
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Universidad Nacional de Córdoba
+  url: "www.unc.edu.ar"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
