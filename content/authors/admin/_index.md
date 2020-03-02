@@ -15,26 +15,23 @@ role: Profesor de Estadística
 # Organizations/Affiliations
 organizations:
 - name: Universidad Nacional de Córdoba
-  url: "www.unc.edu.ar"
+  url: "https://www.unc.edu.ar"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Migraciones sur-sur  
+- Inserción laboral de migrantes  
+- Estadística en Ciencias Sociales  
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
+  - course: PhD en Demografía
     institution: Stanford University
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: Lic en Psicología
+    institution: Universidad nacional de Córdoba
     year: 2008
 
 # Social/Academic Networking
@@ -45,15 +42,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.co.uk/citations?user=T1lI2J0AAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/ebologna
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -70,6 +67,7 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Es profesor e investigador en la Universidad Nacional de Córdoba y en la Universidad Católica de Córdoba. Trabaja sobre migraciones sur-sur con enfoque sociodemográfico. Además dicta cursos sobre Estadística y Análisis de Datos en Ciencias Sociales en carreras de grado y posgrado.
+Dirije la [Especialización en Producción y Análisis de Información para Políticas Públicas](http://sociales.unc.edu.ar/informacionparalaspolticaspublicas).  
+Es promotor del software libre para el análisis de datos, por lo que hace esfuerzos para que quienes se inician en el uso de métodos cuantitativos aplicados a la investigación social, accedan a R desde el comienzo. La concibe como herramienta que ayuda a enfrentar la crisis de reproducibilidad de la producción científica.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
