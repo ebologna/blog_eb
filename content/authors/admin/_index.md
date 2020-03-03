@@ -18,7 +18,7 @@ organizations:
   url: "https://www.unc.edu.ar"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Mis intereses de investigación incluyen las migraciones sur-sur con enfoque sociodemográfico, la enseñanza de la Estadística y el Análisis de Datos en Ciencias Sociales.
 
 interests:
 - Migraciones sur-sur  
