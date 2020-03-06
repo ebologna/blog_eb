@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Profesor de Estadística
+role: Migraciones - Métodos Cuantitativos
 
 # Organizations/Affiliations
 organizations:
@@ -21,18 +21,13 @@ organizations:
 bio: Mis intereses de investigación incluyen las migraciones sur-sur con enfoque sociodemográfico, la enseñanza de la Estadística y el Análisis de Datos en Ciencias Sociales.
 
 interests:
-- Migraciones sur-sur  
+- Migraciones internacionales  
 - Inserción laboral de migrantes  
-- Estadística en Ciencias Sociales  
+- Métodos cuantitativos en Ciencias Sociales  
 
 education:
   courses:
-  - course: PhD en Demografía
-    institution: Stanford University
-    year: 2012
-  - course: Lic en Psicología
-    institution: Universidad nacional de Córdoba
-    year: 2008
+  - Dr. en Demografía [ver CV completo]
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -53,9 +48,9 @@ social:
   link: https://github.com/ebologna
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -67,7 +62,7 @@ user_groups:
 - Visitors
 ---
 
-Es profesor e investigador en la Universidad Nacional de Córdoba y en la Universidad Católica de Córdoba. Trabaja sobre migraciones sur-sur con enfoque sociodemográfico. Además dicta cursos sobre Estadística y Análisis de Datos en Ciencias Sociales en carreras de grado y posgrado.
-Dirije la [Especialización en Producción y Análisis de Información para Políticas Públicas](http://sociales.unc.edu.ar/informacionparalaspolticaspublicas).  
-Es promotor del software libre para el análisis de datos, por lo que hace esfuerzos para que quienes se inician en el uso de métodos cuantitativos aplicados a la investigación social, accedan a R desde el comienzo. La concibe como herramienta que ayuda a enfrentar la crisis de reproducibilidad de la producción científica.  
+Soy profesor e investigador en la Universidad Nacional de Córdoba y en la Universidad Católica de Córdoba. Mi tema principal de investigación son las migraciones sur-sur y trabajo con enfoque sociodemográfico, con datos de censos y encuestas. Dicto cursos sobre Estadística y Análisis de Datos en Ciencias Sociales en carreras de grado y posgrado.
+Soy director de la [Especialización en Producción y Análisis de Información para Políticas Públicas](http://sociales.unc.edu.ar/informacionparalaspolticaspublicas), y del programa [Población, Desigualdad y Políticas Públicas](http://pdypp.cea.unc.edu.ar/). La primera es una carrera de posgrado que ofrece herramientas metodológicas para el diseño, monitoreo y evaluación de intervenciones sociales; el programa es un espacio que nuclea proyectos de investigación sobre esos temas.  
+Promuevo el uso de software libre, por lo que me esfuerzo en la difusión de R para el análisis de datos en Ciencias Sociales. Lo veo como una herramienta útil para dar cuenta del modo en que se alcanzaron los resultados que se publican, que contribuye a la transparencia de los métodos, aporta a que la ciencia esté abierta a la crítica, y puede contribuir a enfrentar la crisis de reproducibilidad de la producción científica.
 
