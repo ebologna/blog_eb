@@ -62,7 +62,7 @@ user_groups:
 - Visitors
 ---
 
-Soy profesor e investigador en la Universidad Nacional de Córdoba y en la Universidad Católica de Córdoba. Mi tema principal de investigación son las migraciones sur-sur y trabajo con enfoque sociodemográfico, con datos de censos y encuestas. Dicto cursos sobre Estadística y Análisis de Datos en Ciencias Sociales en carreras de grado y posgrado.
+Soy profesor e investigador en la Universidad Nacional de Córdoba y en la Universidad Católica de Córdoba. Mi tema principal de investigación es la migración internacional, y trabajo con enfoque sociodemográfico, con datos de censos y encuestas. Dicto cursos sobre Estadística y Análisis de Datos en Ciencias Sociales en carreras de grado y posgrado.
 Soy director de la [Especialización en Producción y Análisis de Información para Políticas Públicas](http://sociales.unc.edu.ar/informacionparalaspolticaspublicas), y del programa [Población, Desigualdad y Políticas Públicas](http://pdypp.cea.unc.edu.ar/). La primera es una carrera de posgrado que ofrece herramientas metodológicas para el diseño, monitoreo y evaluación de intervenciones sociales; el programa es un espacio que nuclea proyectos de investigación sobre esos temas.  
 Promuevo el uso de software libre, por lo que me esfuerzo en la difusión de R para el análisis de datos en Ciencias Sociales. Lo veo como una herramienta útil para dar cuenta del modo en que se alcanzaron los resultados que se publican, que contribuye a la transparencia de los métodos, aporta a que la ciencia esté abierta a la crítica, y puede contribuir a enfrentar la crisis de reproducibilidad de la producción científica.
 
