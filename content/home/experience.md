@@ -18,27 +18,57 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
+  title = "Profesor  Titular"
+  company = "Universidad Nacional de Córdoba"
+  company_url = "www.unc.edu.ar"
   location = "California"
-  date_start = "2017-01-01"
+  date_start = "2004-10-10"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Docencia de grado y posgrado
+  * Investigación
+  * Gestión
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Director"
+  company = "Especialización en Producción y Análisis de Información para Políticas Públicas"
+  company_url = "http://secretarias.unc.edu.ar/cea/carreras/especializaciones/especializacion-produccion-y-analisis-de-informacion-para-las-politicas-publicas"
+  location = "Córdoba - Argentina"
+  date_start = "2011-01-03"
+  date_end = ""
+  description = """"""
+"""
+
+[[experience]]
+  title = "Director"
+  company = "Programam de Estadísticas Universitarias"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Córdoba - Argentina"
+  date_start = "2013-01-08"
+  date_end = "2016-01-03"
+  description = """"""
+"""
+
+[[experience]]
+  title = "Director"
+  company = "Departamento de Ciencias Sociales Universidad Siglo 21"
+  company_url = ""
+  location = "Córdoba - Argentina"
+  date_start = "2000-01-03"
+  date_end = "2007-31-12"
+  description = """"""
+"""
+
+[[experience]]
+  title = "Becario"
+  company = "Instituto de Investigación para el Desarrollo IRD-Francia"
+  company_url = "https://www.ird.fr/"
+  location = "Córdoba - Paris - Tarija"
+  date_start = "2000-01-01"
+  date_end = "2003-12-31"
+  description = """"""
 
 +++
