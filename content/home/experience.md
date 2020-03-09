@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Córdoba"
   date_start = "2004-10-10"
   date_end = ""
-  description = """
+  description = """"
   Responsibilities include:
   
   * Docencia de grado y posgrado
@@ -39,8 +39,8 @@ date_format = "Jan 2006"
   location = "Córdoba - Argentina"
   date_start = "2011-01-03"
   date_end = ""
-  description = """"""
-"""
+  description = """"
+  """
 
 [[experience]]
   title = "Director"
@@ -49,8 +49,8 @@ date_format = "Jan 2006"
   location = "Córdoba - Argentina"
   date_start = "2013-01-08"
   date_end = "2016-01-03"
-  description = """"""
-"""
+  description = """
+  """
 
 [[experience]]
   title = "Director"
@@ -58,9 +58,9 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Córdoba - Argentina"
   date_start = "2000-01-03"
-  date_end = "2007-31-12"
-  description = """"""
-"""
+  date_end = "2007-12-31"
+  description = """
+  """
 
 [[experience]]
   title = "Becario"
@@ -69,6 +69,7 @@ date_format = "Jan 2006"
   location = "Córdoba - Paris - Tarija - Jujuy"
   date_start = "2000-01-01"
   date_end = "2003-12-31"
-  description = """"""
+  description = """
+  """
 
 +++
