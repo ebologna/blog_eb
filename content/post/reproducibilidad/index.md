@@ -1,14 +1,14 @@
 ---
 title: 'Conocimiento validado y toma de decisión'
 author: admin
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "2020-03-14T00:00:00Z"
 slug: otra_prueba
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: "`r format(Sys.time(), '%d %B, %Y')`"
+lastmod: "2020-03-14T00:00:00Z"
 featured: no
 image:
   caption: ''
