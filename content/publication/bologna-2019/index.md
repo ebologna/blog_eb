@@ -11,7 +11,7 @@ publication: "*Decision Making Based on Data*"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](http://ebologna.rbind.io/)'
+  caption: 'Image credit: [**eb**](http://ebologna.rbind.io/)'
   focal_point: ""
   preview_only: false
 ---
