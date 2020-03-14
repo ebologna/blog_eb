@@ -1,7 +1,7 @@
 ---
 title: 'Conocimiento validado y toma de decisión'
-author: admin
-date: "2020-03-14T00:00:00Z"
+author: Eduardo
+date: "2020-03-14"
 slug: otra_prueba
 categories: []
 tags: []
@@ -9,7 +9,7 @@ subtitle: ''
 summary: ''
 authors: []
 lastmod: "2020-03-14T00:00:00Z"
-featured: no
+featured: true
 image:
   caption: ''
   focal_point: ''
@@ -18,7 +18,7 @@ projects: []
 bibliography: cite.bib
 ---
 
-# espacio  
+
 En nuestros tiempos, la información que se toma por válida para orientar la acción política es la que se ha dado en llamar "científica". La complejidad de los métodos usados para alcanzar resultados hace que en su mayoría no sean accesibles a quienes deben usarlos para tomar decisiones. Quienes tienen esa responsabilidad deben confiar en la validez de la información que reciben para decidir: recomendar protocolos de intervención terapéutica, autorizar nuevos medicamentos, definir políticas de salud pública, elegir cursos de acción en lo económico, en lo político. El espacio de validación de los resultados de investigación son las publicaciones científicas, que someten los hallazgos al escrutinio de pares evaluadores que dictaminan sobre la calidad de estos resultados –en especial sobre el modo en que fueron alcanzados–, y autorizan o no su publicación. El conocimiento que se hace público por medio de revistas prestigiosas alcanza la categoría de "válido hasta nuevo aviso", y se constituye en lo mejor que puede conocerse en un momento dado; eso lo hace válido para orientar la acción, puede usarse como argumento para fundamentar decisiones que tienen impacto sobre la salud y el bienestar de muchas personas. No es la verdad, pero es la mejor aproximación que se tiene en un momento histórico dado.
 Sin embargo, los mecanismos que hacen que un resultado se publique y tenga influencia no son perfectos, algunos ejemplos:
 
