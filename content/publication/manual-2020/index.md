@@ -13,7 +13,7 @@ url_pdf: "https://estadisticacienciassocialesr.rbind.io/"
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: 'Image credit: [**eb**](http://ebologna.rbind.io/)'
-  focal_point: "smart"
+  focal_point: "TopLeft"
   preview_only: false
 ---
 

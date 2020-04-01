@@ -26,7 +26,7 @@ image:
 ---
 
 
-## Serie temporal de la dstribución de las ategorías ocupacionales por sexo y educación
+## Serie temporal de la distribución de las categorías ocupacionales por sexo y educación
 
 ![png](./categoria_2005.png)
 
