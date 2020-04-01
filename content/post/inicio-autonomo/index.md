@@ -1,6 +1,6 @@
 ---
-title: 'Incorporación de imágenes'
-subtitle: 'prueba de figuras'
+title: 'Categorías ocupacionales por sexo y educación'
+subtitle: 'período 2004 - 2018'
 authors:
 - admin
 tags:
@@ -20,14 +20,39 @@ draft: false
 image:
   placement: 1
   caption: 'Image credit: Victoria'
-  focal_point: ""
+  focal_point: "TopLeft"
   preview_only: false
 
 ---
 
-**Esta es la bajada, en negrita, se supone**
 
-## Categorías ocupacionales por sexo
+## Serie temporal de la dstribución de las ategorías ocupacionales por sexo y educación
+
+![png](./categoria_2005.png)
+
+![png](./categoria_2006.png)
+
+![png](./categoria_2007.png)
+
+![png](./categoria_2008.png)
+
+![png](./categoria_2009.png)
+
+![png](./categoria_2010.png)
+
+![png](./categoria_2011.png)
+
+![png](./categoria_2012.png)
+
+![png](./categoria_2013.png)
+
+![png](./categoria_2014.png)
+
+![png](./categoria_2015.png)
+
+![png](./categoria_2016.png)
+
+![png](./categoria_2017.png)
 
 ![png](./categoria_2018.png)
 
