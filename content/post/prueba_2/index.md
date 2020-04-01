@@ -14,6 +14,7 @@ image:
   caption: ''
   focal_point: ''
   preview_only: no
+draft: true
 projects: []
 bibliography: reproducibilidad.bib
 link-citations: true
