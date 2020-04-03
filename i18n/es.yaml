@@ -128,3 +128,7 @@
   translation: Entendido!
 - id: cookie_learn
   translation: Más información
+- id: recent_posts
+  translation: Posteos recientes
+- id: recent_publications
+  translation: Publicaciones recientes
