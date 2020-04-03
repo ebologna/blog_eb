@@ -16,7 +16,6 @@ image:
 projects: []
 bibliography: reproducibilidad.bib
 link-citations: true
-id: more_posts
 ---
 
 
