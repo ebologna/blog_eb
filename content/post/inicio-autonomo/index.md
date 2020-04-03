@@ -1,6 +1,6 @@
 ---
 title: 'Categorías ocupacionales por sexo y educación'
-subtitle: 'período 2004 - 2018'
+subtitle: 'período 2005 - 2018'
 authors:
 - admin
 tags:
@@ -19,8 +19,9 @@ draft: false
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 ---
 
+El objetivo de la serie que se inicia aquí es analizar los cambios en la inserción laboral de la población urbana de Argentina en los últimos 20 años. A modo de primer ejemplo, mostramos la evolución entre 2005 y 2018 de la participación en la actividad económica de varones y mujeres, según su nivel de educación. Las bases y los scripts están disponibles en https://github.com/ebologna/gender-gap  
 
-## Serie temporal de la distribución de las categorías ocupacionales por sexo y educación
+## Cambios temporales de la distribución de las categorías ocupacionales por sexo y educación
 
 ![png](./categoria_2005.png)
 
