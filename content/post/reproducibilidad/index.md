@@ -1,19 +1,15 @@
 ---
 title: 'Conocimiento validado y toma de decisión'
-author: Eduardo
-date: "2020-03-14"
-slug: otra_prueba
-categories: []
-tags: []
-subtitle: ''
-summary: ''
-authors: []
-lastmod: "2020-03-14T00:00:00Z"
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-projects: []
+authors:
+- admin
+tags:
+- Academic
+categories:
+- Demo
+date: "2020-03-10T00:00:00Z"
+lastmod: "2020-04-01T00:00:00Z"
+featured: false
+draft: false
 bibliography: reproducibilidad.bib
 link-citations: true
 ---
