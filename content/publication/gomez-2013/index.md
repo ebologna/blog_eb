@@ -1,5 +1,5 @@
 ---
-title: "Remesas y participaciÃtextthreesuperiorn laboral en Paraguay: Efectos de los desplazamientos sur-sur"
+title: "Remesas y participación laboral en Paraguay: Efectos de los desplazamientos sur-sur"
 date: 2013-12-01
 publishDate: 2020-03-03T20:59:41.515860Z
 authors: ["Pablo Sebastián AND Bologna, Eduardo GÃ\textthreesuperiormez"]
