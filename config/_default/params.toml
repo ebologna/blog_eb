@@ -82,11 +82,11 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "ebologna@gmail.com"
-phone = "888 888 88 88"
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Bv. de la Reforma esquina Enfermera Gordillo", city = "Stanford", region = "Córdoba", postcode = "5000", country = "Argentina", country_code = "AR"}
+address = {street = "Bv. de la Reforma esquina Enfermera Gordillo", city = "Córdoba", region = "Córdoba", postcode = "5000", country = "Argentina", country_code = "AR"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -193,7 +193,7 @@ plugins_js  = []
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
+  post_view = 1
   publication_view = 2
   talk_view = 2
 

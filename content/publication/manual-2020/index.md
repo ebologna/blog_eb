@@ -5,7 +5,7 @@ publishDate: 2020-03-03T20:59:41.516167Z
 authors: ["Eduardo Leon Bologna"]
 publication_types: ["5"]
 abstract: ""
-featured: true
+featured: false
 publication: ""
 url_pdf: "https://estadisticacienciassocialesr.rbind.io/"
 
