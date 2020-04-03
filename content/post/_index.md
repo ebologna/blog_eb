@@ -6,7 +6,7 @@ title: Posteos
 #   2 = Compact
 #   3 = Card
 view: 1
-
+id: more_posts
 # Optional header image (relative to `static/img/` folder).
 header:
   caption: ""
