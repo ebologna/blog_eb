@@ -6,8 +6,8 @@ tags:
 - Academic
 categories:
 - Demo
-date: "2020-03-10T00:00:00Z"
-lastmod: "2020-04-01T00:00:00Z"
+date: "2020-03-01T00:00:00Z"
+lastmod: "2020-04-04T00:00:00Z"
 featured: false
 draft: false
 bibliography: reproducibilidad.bib
