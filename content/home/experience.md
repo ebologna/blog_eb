@@ -72,4 +72,14 @@ date_format = "Jan 2006"
   description = """
   """
 
+[[experience]]
+  title = "Coordinador"
+  company = "Centro de Investigación de la Facultad de Educación - UCC"
+  company_url = "https://www.ucc.edu.ar/"
+  location = "Córdoba"
+  date_start = "2019-07-15"
+  date_end = ""
+  description = """
+  """
+
 +++
