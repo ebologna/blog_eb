@@ -9,8 +9,7 @@ categories:
 date: "2020-01-01T00:00:00Z"
 lastmod: "2020-04-04T00:00:00Z"
 featured: false
-bibliography: reproducibilidad.bib
-link-citations: true
+draft: false
 ---
 
 
