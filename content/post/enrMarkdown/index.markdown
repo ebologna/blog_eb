@@ -2,7 +2,6 @@
 title: Concimiento validado y toma de decisión
 author: ''
 date: '2020-04-04'
-slug: reproducibilidad-en-rmarkdown
 categories: []
 tags: []
 bibliography: reproducibilidad.bib
