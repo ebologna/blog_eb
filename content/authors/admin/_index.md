@@ -18,7 +18,8 @@ organizations:
   url: "https://www.unc.edu.ar"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Tengo diversidad de intereses: migraciones sur-sur, Análisis de Datos en Ciencias Sociales, experimentos gastronómicos.
+bio:
+Tengo diversidad de intereses: migraciones sur-sur, Análisis de Datos en Ciencias Sociales, experimentos gastronómicos.
 
 interests:
 - Migraciones internacionales  
