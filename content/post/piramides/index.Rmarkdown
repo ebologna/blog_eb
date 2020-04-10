@@ -1,6 +1,6 @@
 ---
 title: Pirámides de Población con ggplot2
-author: 'Eduardo Bologna'
+author: Eduardo Bologna
 date: '2020-04-10'
 slug: piramides-2
 categories: []
@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
 ```
 
 Las pirámides ofrecen una visión rápida de la estructura por sexos y edades de una población. Representan las edades en el eje vertical, los volúmenes o proporciones de población en el eje horizontal y en las barras horizontales se grafican hacia la derecha el total de mujeres de cada edad y a la izquierda el de varones.  
-Veremos cómo generar estas pirámides de población por medio del paquete `ggplot`, por lo que se supone un conocimiento general del uso del paquete.  
+Veremos cómo generar estas pirámides de población por medio del paquete `ggplot2`, por lo que se supone un conocimiento general del uso del paquete.  
 Se verá el modo de construir pirámides con datos provenientes de una base de microdatos o de una tabla de clasificación por sexos y edades. Para los ejemplos, se usan datos provenientes de la Encuesta Permanente de Hogares (EPH) de Argentina aplicada en el tercer trimestre de 2018. El diccionario de variables y categorías está disponible en https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_diseno_reg_t414.pdf.  
 En primer lugar se lee la base de microdatos (disponible  en https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_usu_3_Trim_2018_txt.zip ):  
 ```{r}

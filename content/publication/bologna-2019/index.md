@@ -12,6 +12,8 @@ University of Córdoba (Argentina). There is a specific demand on the qualificat
 the validity of the evaluations and the automation of their administration and correction. The work consists of the construction of examination items classified according to three criteria: elementary
 thematic unit it evaluates, cognitive level and degree of difficulty, so that precision exams can be built. Using _exams_ R package, the proposal is applicable to classroom or on-line courses."
 
+url_pdf: https://iase-web.org/documents/papers/sat2019/IASE2019%20Satellite%20110_BOLOGNA.pdf?1569666563
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
