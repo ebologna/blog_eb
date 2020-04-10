@@ -82,4 +82,13 @@ date_format = "Jan 2006"
   description = """
   """
 
+[[experience]]
+  title = "Director"
+  company = "Programa Población Desigualdad y Políticas Públicas"
+  company_url = "http://pdypp.cea.unc.edu.ar/"
+  location = "Córdoba - Argentina"
+  date_start = "2016-01-03"
+  date_end = ""
+  description = """"
+  """
 +++

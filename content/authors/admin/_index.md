@@ -18,11 +18,11 @@ organizations:
   url: "https://www.unc.edu.ar"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Mis intereses de investigación incluyen las migraciones sur-sur con enfoque sociodemográfico, la enseñanza de la Estadística y el Análisis de Datos en Ciencias Sociales.
+bio: Tengo diversidad de intereses: migraciones sur-sur, Análisis de Datos en Ciencias Sociales, experimentos gastronómicos.
 
 interests:
 - Migraciones internacionales  
-- Inserción laboral de migrantes  
+- Alimentos fermentados  
 - Métodos cuantitativos en Ciencias Sociales  
 
 education:
@@ -62,7 +62,8 @@ user_groups:
 - Visitors
 ---
 
-Soy profesor e investigador en la Universidad Nacional de Córdoba y en la Universidad Católica de Córdoba. Mi tema principal de investigación es la migración internacional, y trabajo con enfoque sociodemográfico, con datos de censos y encuestas. Dicto cursos sobre Estadística y Análisis de Datos en Ciencias Sociales en carreras de grado y posgrado.
-Soy director de la [Especialización en Producción y Análisis de Información para Políticas Públicas](http://sociales.unc.edu.ar/informacionparalaspolticaspublicas), y del programa [Población, Desigualdad y Políticas Públicas](http://pdypp.cea.unc.edu.ar/). La primera es una carrera de posgrado que ofrece herramientas metodológicas para el diseño, monitoreo y evaluación de intervenciones sociales; el programa es un espacio que nuclea proyectos de investigación sobre esos temas.  
-Promuevo el uso de software libre, por lo que me esfuerzo en la difusión de R para el análisis de datos en Ciencias Sociales. Lo veo como una herramienta útil para dar cuenta del modo en que se alcanzaron los resultados que se publican, que contribuye a la transparencia de los métodos, aporta a que la ciencia esté abierta a la crítica, y puede contribuir a enfrentar la crisis de reproducibilidad de la producción científica.
+Soy Eduardo, ocupo mi tiempo en diversas actividades, algunas académicas, como la docencia y la consultoría, otras menos reglamentadas, como la investigación y la experimentación gastronómica. Sobre esto último me atrae mucho ensayar en fermentación, germinados, deshidratación. Logré muy buenos resultados con el kéfir, chucrut, yogurt y ajos fermentados, así como repetidos fracasos con el kimchi. Es bien interesante el proceso, las variables que juegan no son tantas, pero las combinaciones sí son muchas y cada vez sale diferente.  
+En docencia me ocupo de métodos cuantitativos y en investigación, vengo trabajando desde hace tiempo con migraciones internacionales.  
+Mi interés por la exploración incluye incursiones por el mundo de la computación, lo que me llevó a encontrar gente generosa, con ganas de cooperar y ayudar a los no iniciados. Este blog también es parte de los experimentos; como otras cosas que suceden en el  entorno de R, construirlo se parece a fermentar: uno hace lo que está planificado, pero el resultado siempre tiene una componente impredecible y hay que dedicar tiempo a buscar los ajustes.  
 
+El objetivo de este espacio es lúdico, busca es compartir logros y fracasos con gente que tenga intereses parecidos (a alguno de los míos), los posts tienen frecuencia azarosa y sus contenidos son variopintos.  

@@ -1,5 +1,5 @@
 ---
-title: Concimiento validado y toma de decisión
+title: Conocimiento validado y toma de decisión
 author: ''
 date: '2020-04-04'
 categories: []
