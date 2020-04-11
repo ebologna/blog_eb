@@ -7,6 +7,8 @@ publication_types: ["2"]
 abstract: ""
 featured: false
 publication: "*Migraciones internacionales*"
-url_pdf: "http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1665-89062013000200007&nrm=iso"
+links:
+- name: acceder
+  url: http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1665-89062013000200007&nrm=iso
 ---
 

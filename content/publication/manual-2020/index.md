@@ -8,8 +8,6 @@ abstract: ""
 featured: false
 publication: ""
 
-
-url_pdf: "https://estadisticacienciassocialesr.rbind.io/"
 links:
 - name: acceder
   url: https://estadisticacienciassocialesr.rbind.io/

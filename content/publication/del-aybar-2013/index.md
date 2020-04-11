@@ -8,6 +8,8 @@ abstract: "Changes were identified in Peruvian migration to Córdoba (Argentina)
 featured: false
 publication: "*Migraciones Internacionales*"
 tags: ["Migration network", "Peruvian migration", "South-south migration", "Transnational community", "Transnationalism"]
-doi: "10.17428/rmi.v6i24.715"
+links:
+- name: acceder
+  url: 10.17428/rmi.v6i24.715
 ---
 

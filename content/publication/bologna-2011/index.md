@@ -7,6 +7,8 @@ publication_types: ["2"]
 abstract: ""
 featured: false
 publication: "*Revista Evaluar*"
-doi: "10.35670/1667-4545.v11.n1.2842"
+links:
+- name: acceder
+  url: 10.35670/1667-4545.v11.n1.2842
 ---
 

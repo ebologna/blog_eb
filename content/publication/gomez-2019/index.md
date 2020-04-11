@@ -8,9 +8,9 @@ abstract: "Objetivo: analizar la incorporación laboral de los migrantes peruano
 featured: false
 publication: "*Población y Salud en Mesoamérica*"
 tags: ["Argentina", "Correspondencias Múltiples", "Incorporación laboral", "Migración Peruana", "Migración Sur", "R Software", "Sur"]
-doi: "10.15517/psm.v0i0.34027"
+
 links:
-- name: descargar
+- name: acceder
   url: https://revistas.ucr.ac.cr/index.php/psm/article/view/34027
 
 # Featured image
