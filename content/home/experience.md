@@ -40,7 +40,7 @@ date_format = "Jan 2006"
   date_start = "2011-01-03"
   date_end = ""
   description = """"
-  Carrera de posgrado que capacita en el uso de procedimientos de producción de datos, su análisis a través de técnicas y  herramientas pertinentes y su presentación en lenguaje de acceso directo para los tomadores de decisión. Se ofrece formación en procedimientos diagnósticos, de aplicación de políticas y de su control, tanto a través del monitoreo como de la evaluación de impacto. 
+  Carrera de posgrado que capacita en el uso de procedimientos de producción de datos, su análisis a través de técnicas y  herramientas actualizadas y su presentación en lenguaje de acceso directo para los tomadores de decisión. Se ofrece formación en procedimientos diagnósticos, de aplicación de políticas, así como de su control, tanto a través del monitoreo como de la evaluación de impacto. 
   """
 
 [[experience]]
@@ -82,7 +82,7 @@ date_format = "Jan 2006"
   date_start = "2019-07-15"
   date_end = ""
   description = """
-  Un equipo pequeño, de reciente formación, dedicado a difundirla actividad de investigación de la Facultad por medio de apoyo a trabajos finales de grado y posgrado, capacitación en herramientas analíticas y monitoreo de tendencias educativas a partir de datos oficiales, 
+  Un equipo pequeño, de reciente formación, dedicado a difundir la actividad de investigación de la Facultad por medio de apoyo a trabajos finales de grado y posgrado, capacitación en herramientas analíticas y monitoreo de tendencias educativas a partir de datos oficiales. 
   """
 
 [[experience]]

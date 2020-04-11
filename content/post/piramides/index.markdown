@@ -4,7 +4,7 @@ author: Eduardo Bologna
 date: '2020-04-10'
 slug: piramides-2
 categories: []
-tags: []
+tags: ["pirámides de poblacion", "ggplot", "demografía"]
 bibliography: library.bib
 ---
 
@@ -27,21 +27,21 @@ library(ggthemes)
 ## A partir de microdatos
 
 ### En valores absolutos
-Si se cuenta con la base de microdatos, la pirámide parte de un gráfico de barras, que cuenta la cantidad de repeticiones de cada edad. Por el modo en que se elabora la base de la EPH, es necesaria una corrección previa en la variable edad (codificada como CH06).
+Si se dispone de la base de microdatos, la pirámide parte de un gráfico de barras, que cuenta la cantidad de repeticiones de cada edad. Por el modo en que se elabora la base de la EPH, es necesaria una corrección previa en la variable edad (codificada como CH06).
 
 ```{r}
 eph.3.18$edad<-eph.3.18$CH06
 eph.3.18$edad[eph.3.18$edad==-1]<-0
 ```
 
-Se redefine sexo y se etiqueta:
+Además, se redefine sexo y se etiqueta:
 
 ```{r}
 eph.3.18$sexo<-as.factor(eph.3.18$CH04)
 levels(eph.3.18$sexo)<-c("varon", "mujer")
 ```
 
-El recurso consiste en construir dos gráficos de barras, con la variable edad tomada de cada uno de dos subconjuntos de datos: el que contiene solo mujeres y el que tiene solo varones. Por eso los datos de origen se sitúan en el `geom_bar` y no en `ggplot`. En el de varones, se multiplica por $-1$ la cuenta de casos. Luego se rotan los ejes y se indican los rótulos del eje horizontal.
+El recurso consiste en construir dos gráficos de barras, con la variable edad tomada de cada uno de dos subconjuntos de datos: el que contiene solo mujeres y el que tiene solo varones. Por eso los datos de origen se sitúan en el `geom_bar` y no en `ggplot`. En el de varones, se multiplica por -1 la cuenta de casos. Luego se rotan los ejes y se indican los rótulos del eje horizontal.
 ```{r}
 ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
                    aes(edad,fill=sexo))+
@@ -57,7 +57,7 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
 
 ### En relativos
 
-La lógica de construcción es la misma, pero debe indicarse que, en lugar de mostrar la *cuenta* de casos, se tome la *proporción*, a la que también se multiplica por $-1$ para los varones. En la sintaxis anterior no fue necesario indicar `y=..count..` para las mujeres, porque es la operación por defecto de `geom_bar`, ahora que pedimos `y=..prop..`, hay que indicarlo en los dos `geom_bar`. La expresión `group=1` es necesaria según lo explica @Wickham2009.
+La lógica de construcción es la misma, pero debe indicarse que, en lugar de mostrar la *cuenta* de casos, se tome la *proporción*, a la que también se multiplica por -1 para los varones. En la sintaxis anterior no fue necesario indicar `y=..count..` para las mujeres, porque es la operación por defecto de `geom_bar`, ahora que pedimos `y=..prop..`, hay que indicarlo en los dos `geom_bar`. La expresión `group=1` es necesaria según lo explica @Wickham2009.
 El comando `paste0` le *pega* el signo *%* al resultado de la operación (la secuencia en este caso). Si se una `paste` en lugar de `paste0`, queda un espacio entre el número y el signo *%*.
 ```{r}
 ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
@@ -94,7 +94,7 @@ fill=sexo), stat = "identity")+ coord_flip()+
 
 ### En relativos
 
-Ahora el eje debe representar frecuencias relativas, por lo que se agrega columna que se construye como los *casos* dividido el total de observaciones ($n$).
+Ahora el eje debe representar frecuencias relativas, por lo que se agrega columna que se construye como los *casos* dividido el total de observaciones (n).
 ```{r}
 sexo_edad$relativas<-sexo_edad$casos/n
 
@@ -112,7 +112,7 @@ fill=sexo), stat = "identity")+ coord_flip()+
 
 ### Definición de las categorías de edad
 
-En la función `cut` se indican los puntos de corte y sus etiquetas, definidos primero como dos vectores. Para la categoría abierta final, elegimos un punto extremo de corte en 150 años. Por defecto los intervalos incluyen al límite superior, para evitarlo, se pide `right = FALSE`. Al final, pedimos una tabla para verificar el resultado.
+En la función `cut` se indican los puntos de corte y sus etiquetas, definidos primero como dos vectores. Para la categoría abierta final, elegimos un punto extremo de corte en 150 años. Por defecto los intervalos incluyen al límite superior, para evitarlo, y respetar la convención en demografía, se pide `right = FALSE`.  
 ```{r}
 
 cortes_edad <- c(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,150)
@@ -136,7 +136,10 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
   scale_y_continuous(breaks=seq(-2000,2000,500),labels=abs(seq(-2000,2000,500)))+
   xlab("Edades quinquenales")+ylab("Volumen")+
   scale_fill_manual(values = c("varon"="green", "mujer"="orange"))+
-  theme_tufte()+labs(title="Distribución por sexo y edad de la muestra de la Encuesta Permanente de Hogares", subtitle="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018", caption="Fuente: INDEC 2020")
+  theme_tufte()+labs(title="Distribución por sexo y edad de la muestra de
+  la Encuesta Permanente de Hogares",
+  subtitle="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018",
+  caption="Fuente: INDEC 2020")
 ```
 
 ![jpg](./agrupardas.jpg)
@@ -164,7 +167,9 @@ ggplot()+ geom_bar(data=subset(estudiantes.3.18, estudiantes.3.18$sexo=="mujer")
   scale_x_continuous(breaks=seq(0,75, 15))+
   xlab("Edades quinquenales")+ylab("Volumen")+
   scale_fill_manual(values = c("varon"="green", "mujer"="orange"))+
-  theme_tufte()+labs(title="Distribución por sexo y edad de estudiantes de nivel universitario en la muestra de la EPH", caption="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018 \n Fuente: INDEC 2020")
+  theme_tufte()+labs(title="Distribución por sexo y edad de estudiantes de nivel universitario
+  en la muestra de la EPH",
+  caption="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018 \n Fuente: INDEC 2020")
 ```
 
 ![jpg](./universitaries.jpg)
@@ -189,7 +194,10 @@ ggplot()+ geom_bar(data=subset(desocupades.3.18, desocupades.3.18$sexo=="mujer")
   scale_x_continuous(breaks=seq(0,75, 15))+
   xlab("Edades quinquenales")+ylab("Volumen")+
   scale_fill_manual(values = c("varon"="green", "mujer"="orange"))+
-  theme_tufte()+labs(title="Distribución por sexo y edad de personas desocupadas en la muestra de la EPH", caption="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018 \n Fuente: INDEC 2020")
+  theme_tufte()+
+  labs(title="Distribución por sexo y edad de personas desocupadas en la muestra
+  de la EPH",
+  caption="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018 \n Fuente: INDEC 2020")
 ```
 
 ![jpg](./desocupades.jpg)
@@ -210,9 +218,13 @@ ggplot()+ geom_bar(data=subset(jefxs.3.18, jefxs.3.18$sexo=="mujer"),
   coord_flip()+
   scale_y_continuous(breaks=seq(-500,500,100),labels=abs(seq(-500,500,100)))+
   scale_x_continuous(breaks=seq(0,75, 15))+
-  xlab("Edades quinquenales")+ylab("Volumen")+
+  xlab("Edades quinquenales")+
+  ylab("Volumen")+
   scale_fill_manual(values = c("varon"="green", "mujer"="orange"))+
-  theme_tufte()+labs(title="Distribución por sexo y edad de jefas y jefes de hogar en la muestra de la EPH", caption="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018 \n Fuente: INDEC 2020")
+  theme_tufte()+
+  labs(title="Distribución por sexo y edad de jefas y jefes de hogar en la muestra
+  de la EPH",
+  caption="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018 \n Fuente: INDEC 2020")
 ```
 
 ![jpg](./jefxs.jpg)
