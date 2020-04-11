@@ -52,7 +52,9 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
   ylab("Volumen")+xlab("Edades simples")
 ```
 
-![png](./volumen_edades_simples_df.png)
+![png](./volumen_edades_simples_df.png)  
+
+![jpg](./relativos_edades_simples_df.jpg)
 
 ### En relativos
 
