@@ -52,9 +52,8 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
   ylab("Volumen")+xlab("Edades simples")
 ```
 
-![png](./volumen_edades_simples_df.png)  
+![jpg](./volumen_edades_simples_df.jpg)  
 
-![jpg](./relativos_edades_simples_df.jpg)
 
 ### En relativos
 
@@ -69,6 +68,8 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
   scale_y_continuous(breaks=seq(-.02,.02,.01),
                      labels=paste0(100*abs(seq(-.02,.02,.01)),"%"))
 ```
+![jpg](./relativos_edades_simples_df.jpg)  
+
 
 ## A partir de la distribución
 
@@ -89,6 +90,8 @@ fill=sexo), stat = "identity")+ coord_flip()+
 
 ```
 
+![jpg](./volumen_edades_simples_tabla.jpg)
+
 ### En relativos
 
 Ahora el eje debe representar frecuencias relativas, por lo que se agrega columna que se construye como los *casos* dividido el total de observaciones ($n$).
@@ -101,6 +104,9 @@ fill=sexo), stat = "identity")+ coord_flip()+
                      labels=paste0(100*abs(seq(-.01,.01,.005)),"%"))
 
 ```
+
+![jpg](./relativos_edades_simples_tabla.jpg)
+
 
 ## Pirámide con edades agrupadas
 
@@ -118,7 +124,6 @@ eph.3.18$edad_qq<-cut(eph.3.18$edad,breaks = cortes_edad,
                                 right = FALSE,
                                 labels = clases_edad)
 
-table(eph.3.18$edad_qq, eph.3.18$sexo) # verificación
 ```
 
 Para hacer la pirámide con edades agrupadas desde la base de microdatos, se procede igual que antes, con la nueva variable `edad_qq`. Luego se agregan detalles de estilo.
@@ -134,6 +139,7 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
   theme_tufte()+labs(title="Distribución por sexo y edad de la muestra de la Encuesta Permanente de Hogares", subtitle="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018", caption="Fuente: INDEC 2020")
 ```
 
+![jpg](./agrupardas.jpg)
 
 ## Algunas pirámides de grupos específicos
 
@@ -161,6 +167,7 @@ ggplot()+ geom_bar(data=subset(estudiantes.3.18, estudiantes.3.18$sexo=="mujer")
   theme_tufte()+labs(title="Distribución por sexo y edad de estudiantes de nivel universitario en la muestra de la EPH", caption="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018 \n Fuente: INDEC 2020")
 ```
 
+![jpg](./universitaries.jpg)
 
 ### En condición de desocupación
 
@@ -185,6 +192,8 @@ ggplot()+ geom_bar(data=subset(desocupades.3.18, desocupades.3.18$sexo=="mujer")
   theme_tufte()+labs(title="Distribución por sexo y edad de personas desocupadas en la muestra de la EPH", caption="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018 \n Fuente: INDEC 2020")
 ```
 
+![jpg](./desocupades.jpg)
+
 ### Jefas y jefes de hogar
 
 Esta categoría es la que corresponde a CH03=1
@@ -205,3 +214,5 @@ ggplot()+ geom_bar(data=subset(jefxs.3.18, jefxs.3.18$sexo=="mujer"),
   scale_fill_manual(values = c("varon"="green", "mujer"="orange"))+
   theme_tufte()+labs(title="Distribución por sexo y edad de jefas y jefes de hogar en la muestra de la EPH", caption="Aglomerados Urbanos de Argentina - Tercer Trimestre 2018 \n Fuente: INDEC 2020")
 ```
+
+![jpg](./jefxs.jpg)
