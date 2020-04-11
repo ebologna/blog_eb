@@ -9,7 +9,9 @@ featured: false
 publication: "*Población y Salud en Mesoamérica*"
 tags: ["Argentina", "Correspondencias Múltiples", "Incorporación laboral", "Migración Peruana", "Migración Sur", "R Software", "Sur"]
 doi: "10.15517/psm.v0i0.34027"
-
+links:
+- name: descargar
+  url: https://revistas.ucr.ac.cr/index.php/psm/article/view/34027
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

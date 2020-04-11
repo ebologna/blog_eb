@@ -7,7 +7,13 @@ publication_types: ["5"]
 abstract: ""
 featured: false
 publication: ""
+
+
 url_pdf: "https://estadisticacienciassocialesr.rbind.io/"
+links:
+- name: acceder
+  url: https://estadisticacienciassocialesr.rbind.io/
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
