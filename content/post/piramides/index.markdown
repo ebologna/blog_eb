@@ -8,22 +8,17 @@ tags: []
 bibliography: library.bib
 ---
 
-
-```{r setup, include=FALSE, echo = FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
-```
-
-Las pirámides ofrecen una visión rápida de la estructura por sexos y edades de una población. Representan las edades en el eje vertical, los volúmenes o proporciones de población en el eje horizontal y en las barras horizontales se grafican hacia la derecha el total de mujeres de cada edad y a la izquierda el de varones.  
-Veremos cómo generar estas pirámides de población por medio del paquete `ggplot2`, por lo que se supone un conocimiento general del uso del paquete.  
-Se verá el modo de construir pirámides con datos provenientes de una base de microdatos o de una tabla de clasificación por sexos y edades. Para los ejemplos, se usan datos provenientes de la Encuesta Permanente de Hogares (EPH) de Argentina aplicada en el tercer trimestre de 2018. El diccionario de variables y categorías está disponible en https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_diseno_reg_t414.pdf.  
-En primer lugar se lee la base de microdatos (disponible  en https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_usu_3_Trim_2018_txt.zip ):  
+Las pirámides ofrecen una visión rápida de la estructura por sexos y edades de una población. Representan las edades en el eje vertical, los volúmenes o proporciones de población en el eje horizontal y en las barras horizontales se grafican hacia la derecha el total de mujeres de cada edad y a la izquierda el de varones.
+Veremos cómo generar estas pirámides de población por medio del paquete `ggplot2`, por lo que se supone un conocimiento general del uso del paquete.
+Se verá el modo de construir pirámides con datos provenientes de una base de microdatos o de una tabla de clasificación por sexos y edades. Para los ejemplos, se usan datos provenientes de la Encuesta Permanente de Hogares (EPH) de Argentina aplicada en el tercer trimestre de 2018. El diccionario de variables y categorías está disponible en https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_diseno_reg_t414.pdf.
+En primer lugar se lee la base de microdatos (disponible  en https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_usu_3_Trim_2018_txt.zip ):
 ```{r}
 eph.3.18 <- read.table("usu_individual_T318.txt",
   sep = ";", header = TRUE)
 ```
 
 
-Y se cargan dos paquetes necesarios:  
+Y se cargan dos paquetes necesarios:
 ```{r warning=FALSE}
 library(ggplot2)
 library(ggthemes)
@@ -31,22 +26,22 @@ library(ggthemes)
 
 ## A partir de microdatos
 
-### En valores absolutos  
-Si se cuenta con la base de microdatos, la pirámide parte de un gráfico de barras, que cuenta la cantidad de repeticiones de cada edad. Por el modo en que se elabora la base de la EPH, es necesaria una corrección previa en la variable edad (codificada como CH06).  
+### En valores absolutos
+Si se cuenta con la base de microdatos, la pirámide parte de un gráfico de barras, que cuenta la cantidad de repeticiones de cada edad. Por el modo en que se elabora la base de la EPH, es necesaria una corrección previa en la variable edad (codificada como CH06).
 
 ```{r}
 eph.3.18$edad<-eph.3.18$CH06
 eph.3.18$edad[eph.3.18$edad==-1]<-0
 ```
 
-Se redefine sexo y se etiqueta:  
+Se redefine sexo y se etiqueta:
 
 ```{r}
 eph.3.18$sexo<-as.factor(eph.3.18$CH04)
 levels(eph.3.18$sexo)<-c("varon", "mujer")
 ```
 
-El recurso consiste en construir dos gráficos de barras, con la variable edad tomada de cada uno de dos subconjuntos de datos: el que contiene solo mujeres y el que tiene solo varones. Por eso los datos de origen se sitúan en el `geom_bar` y no en `ggplot`. En el de varones, se multiplica por $-1$ la cuenta de casos. Luego se rotan los ejes y se indican los rótulos del eje horizontal.  
+El recurso consiste en construir dos gráficos de barras, con la variable edad tomada de cada uno de dos subconjuntos de datos: el que contiene solo mujeres y el que tiene solo varones. Por eso los datos de origen se sitúan en el `geom_bar` y no en `ggplot`. En el de varones, se multiplica por $-1$ la cuenta de casos. Luego se rotan los ejes y se indican los rótulos del eje horizontal.
 ```{r}
 ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
                    aes(edad,fill=sexo))+
@@ -57,9 +52,12 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
   ylab("Volumen")+xlab("Edades simples")
 ```
 
+![] (volumen_edades_simples_df.jpg)
+
+
 ### En relativos
 
-La lógica de construcción es la misma, pero debe indicarse que, en lugar de mostrar la *cuenta* de casos, se tome la *proporción*, a la que también se multiplica por $-1$ para los varones. En la sintaxis anterior no fue necesario indicar `y=..count..` para las mujeres, porque es la operación por defecto de `geom_bar`, ahora que pedimos `y=..prop..`, hay que indicarlo en los dos `geom_bar`. La expresión `group=1` es necesaria según lo explica @Wickham2009.  
+La lógica de construcción es la misma, pero debe indicarse que, en lugar de mostrar la *cuenta* de casos, se tome la *proporción*, a la que también se multiplica por $-1$ para los varones. En la sintaxis anterior no fue necesario indicar `y=..count..` para las mujeres, porque es la operación por defecto de `geom_bar`, ahora que pedimos `y=..prop..`, hay que indicarlo en los dos `geom_bar`. La expresión `group=1` es necesaria según lo explica @Wickham2009.
 El comando `paste0` le *pega* el signo *%* al resultado de la operación (la secuencia en este caso). Si se una `paste` en lugar de `paste0`, queda un espacio entre el número y el signo *%*.
 ```{r}
 ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
@@ -71,11 +69,11 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
                      labels=paste0(100*abs(seq(-.02,.02,.01)),"%"))
 ```
 
-## A partir de la distribución  
+## A partir de la distribución
 
 ### En absolutos
 
-Se construye la tabla y se la trata como `data.frame`, se la etiqueta y se calcula el total de casos, para usarlo luego. A la columna *casos*, donde sexo sea varón se cambia de signo. La diferencia con lo anterior en el argumento de `geom_bar` es que hay que pedir `stat="identity"`, para que en lugar de contar ocurrencias de la categoría, tome a la columna *casos* como frecuencias.  
+Se construye la tabla y se la trata como `data.frame`, se la etiqueta y se calcula el total de casos, para usarlo luego. A la columna *casos*, donde sexo sea varón se cambia de signo. La diferencia con lo anterior en el argumento de `geom_bar` es que hay que pedir `stat="identity"`, para que en lugar de contar ocurrencias de la categoría, tome a la columna *casos* como frecuencias.
 ```{r}
 sexo_edad<-table(eph.3.18$edad, eph.3.18$sexo)
 sexo_edad<-data.frame(sexo_edad)
@@ -92,7 +90,7 @@ fill=sexo), stat = "identity")+ coord_flip()+
 
 ### En relativos
 
-Ahora el eje debe representar frecuencias relativas, por lo que se agrega columna que se construye como los *casos* dividido el total de observaciones ($n$).  
+Ahora el eje debe representar frecuencias relativas, por lo que se agrega columna que se construye como los *casos* dividido el total de observaciones ($n$).
 ```{r}
 sexo_edad$relativas<-sexo_edad$casos/n
 
@@ -105,9 +103,9 @@ fill=sexo), stat = "identity")+ coord_flip()+
 
 ## Pirámide con edades agrupadas
 
-### Definición de las categorías de edad  
+### Definición de las categorías de edad
 
-En la función `cut` se indican los puntos de corte y sus etiquetas, definidos primero como dos vectores. Para la categoría abierta final, elegimos un punto extremo de corte en 150 años. Por defecto los intervalos incluyen al límite superior, para evitarlo, se pide `right = FALSE`. Al final, pedimos una tabla para verificar el resultado.    
+En la función `cut` se indican los puntos de corte y sus etiquetas, definidos primero como dos vectores. Para la categoría abierta final, elegimos un punto extremo de corte en 150 años. Por defecto los intervalos incluyen al límite superior, para evitarlo, se pide `right = FALSE`. Al final, pedimos una tabla para verificar el resultado.
 ```{r}
 
 cortes_edad <- c(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,150)
@@ -115,14 +113,14 @@ clases_edad <- c("0-4","5-9","10-14","15-19","20-24","25-29","30-34",
                "35-39","40-44","45-49","50-54","55-59","60-64","65-69",
                "70-74","75-79","80-84","85+")
 
-eph.3.18$edad_qq<-cut(eph.3.18$edad,breaks = cortes_edad, 
-                                right = FALSE, 
+eph.3.18$edad_qq<-cut(eph.3.18$edad,breaks = cortes_edad,
+                                right = FALSE,
                                 labels = clases_edad)
 
 table(eph.3.18$edad_qq, eph.3.18$sexo) # verificación
 ```
 
-Para hacer la pirámide con edades agrupadas desde la base de microdatos, se procede igual que antes, con la nueva variable `edad_qq`. Luego se agregan detalles de estilo.  
+Para hacer la pirámide con edades agrupadas desde la base de microdatos, se procede igual que antes, con la nueva variable `edad_qq`. Luego se agregan detalles de estilo.
 ```{r}
 ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
                    aes(edad_qq,fill=sexo))+
@@ -136,7 +134,7 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
 ```
 
 
-## Algunas pirámides de grupos específicos  
+## Algunas pirámides de grupos específicos
 
 ### Población estudiantil universitaria
 
@@ -147,7 +145,7 @@ estudiantes.3.18<-subset(eph.3.18, eph.3.18$NIVEL_ED==5 & eph.3.18$CH10==1 &
 
 ```
 
-Y se construye la pirámide para esa nueva matriz de datos  
+Y se construye la pirámide para esa nueva matriz de datos
 
 ```{r}
 ggplot()+ geom_bar(data=subset(estudiantes.3.18, estudiantes.3.18$sexo=="mujer"),
@@ -170,7 +168,7 @@ El grupo de personas desocupadas es el de quienes cumplen con ESTADO = 2:
 desocupades.3.18<-subset(eph.3.18, eph.3.18$ESTADO==2)
 ```
 
-Y se construye la pirámide para esa nueva matriz de datos  
+Y se construye la pirámide para esa nueva matriz de datos
 
 
 ```{r}
