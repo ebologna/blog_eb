@@ -33,4 +33,4 @@ Allí se aprecia la diferencia en la participación entre varones y mujeres y la
 
 
 
-Las bases están disponibles en el sitio del [INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos), y las operaciones que conducen al gráfico en este documento: {{< ref "tasas_de_actividad.pdf" >}}   
+Las bases están disponibles en el sitio del [INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos), y las operaciones que conducen al gráfico en este documento: {{ref. "tasas_de_actividad.pdf"}}   
