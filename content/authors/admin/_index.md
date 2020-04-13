@@ -18,17 +18,15 @@ organizations:
   url: "https://www.unc.edu.ar"
 
 # Short bio (displayed in user profile at end of posts)
-bio:
-Migraciones sur-sur, Análisis de Datos en Ciencias Sociales, Reproducibilidad de resultados de investigación
+bio: Migraciones sur-sur, Análisis de Datos en Ciencias Sociales, Reproducibilidad de resultados de investigación
 
 interests:
 - Migraciones internacionales  
-- Alimentos fermentados  
 - Métodos cuantitativos en Ciencias Sociales  
 
 education:
   courses:
-  - course: Dr. en Demografía [ver CV completo]
+  - course: Dr. en Demografía
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
