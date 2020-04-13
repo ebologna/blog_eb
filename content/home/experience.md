@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   location = "Córdoba - Argentina"
   date_start = "2011-01-03"
   date_end = ""
-  description = """"
+  description = """
   Carrera de posgrado que capacita en el uso de procedimientos de producción de datos, su análisis a través de técnicas y  herramientas actualizadas y su presentación en lenguaje de acceso directo para los tomadores de decisión. Se ofrece formación en procedimientos diagnósticos, de aplicación de políticas, así como de su control, tanto a través del monitoreo como de la evaluación de impacto. 
   """
 
@@ -71,7 +71,7 @@ date_format = "Jan 2006"
   date_start = "2000-01-01"
   date_end = "2003-12-31"
   description = """
-  Beca de Doctorado en la Universidad de Paris 5, para realización de trabajo de campo en Argentina y Bolivia sobre espacios de movilidad.
+  Beca de Doctorado en la Universidad de Paris 5, para realización de trabajo de campo en Argentina y Bolivia sobre migraciones y espacios de movilidad.
   """
 
 [[experience]]
@@ -92,7 +92,7 @@ date_format = "Jan 2006"
   location = "Córdoba - Argentina"
   date_start = "2016-01-03"
   date_end = ""
-  description = """"
+  description = """
   Nuclea proyectos de investigación que estudian las interacciones entre procesos de estratificación social, vectores de desigualdad (género, etnia, origen migratorio) y políticas públicas.
   """
 +++
