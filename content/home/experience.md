@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Córdoba"
   date_start = "2004-10-10"
   date_end = ""
-  description = """"
+  description = """
   Con responsabilidad de:
   
   * Docencia de grado y posgrado

@@ -7,9 +7,10 @@ tags:
 - Academic
 categories:
 - Demo
-date: "2020-04-01T00:00:00Z"
+date: "2020-04-13"
 lastmod: "2020-04-01T00:00:00Z"
-featured: false
+tags: ["participación laboral", "gender-gap", "brecha de género"]
+featured: true
 draft: false
 
 # dejamos estas  intrucciones:  
@@ -32,4 +33,4 @@ Allí se aprecia la diferencia en la participación entre varones y mujeres y la
 
 
 
-Las bases están disponibles en el sitio del [INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos), y las operaciones que conducen al gráfico en este documento: ![pdf](tasas_de_actividad.pdf)   
+Las bases están disponibles en el sitio del [INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos), y las operaciones que conducen al gráfico en este documento: {{< ref "tasas_de_actividad.pdf" >}}   
