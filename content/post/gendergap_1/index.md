@@ -25,38 +25,11 @@ En la actualidad, los movimientos feministas van logrando quebrar barreras y mod
 La literatura sobre la brecha de género suele centrarse en algunos emergentes visibles y objetivables, que se organizan en torno a cuatro dimensiones: acceso a salud (Dahlin & Härkönen, 2013), educación (Van Bavel, Schwartz, & Esteve, 2018), logros económicos (O’Neill, 2003) y participación política (Beauregard, 2018; Sartori, Tuorto, & Ghigi, 2017).  
 En esta series de posts nos concentramos en la dimensión económica, si bien se limita a solo un aspecto de la brecha de género —el económico—, se trata de aquel que a escala global muestra el comportamiento menos auspicioso. Para observar los cambios partimos de la diferencia en la forma en que se participan en la actividad económica mujeres y varones. Son diferentes las proporciones de  mujeres y varones que están en el mundo laboral, están afectados de manera diferente por la desocupación, trabajan cantidades de horas diferentes y los niveles de educación de mujeres y varones no son homogéneos. Hacia esas diferencias dirigiremos la mirada a fin de aportar factores que expliquen la brecha de género en lo económico. 
 
-A modo de primer ejemplo, mostramos la evolución entre 2005 y 2018 de la participación en la actividad económica de varones y mujeres, según su nivel de educación. Las bases y los scripts están disponibles en https://github.com/ebologna/gender-gap  
+A modo de primer ejemplo, mostramos la evolución entre 2004 y 2018 de la participación en la actividad económica de varones y mujeres, según su nivel de educación.  
+Allí se aprecia la diferencia en la participación entre varones y mujeres y la estabilidad, tanto del nivel como de la diferencia a lo largo del tiempo. Las diferencias en la participación laboral entre mujeres y varones se reduce cuando se consideran niveles de educación más altos.  
 
-## Cambios temporales de la distribución de las categorías ocupacionales por sexo y educación
-
-![png](./categoria_2005.png)
-
-![png](./categoria_2006.png)
-
-![png](./categoria_2007.png)
-
-![png](./categoria_2008.png)
-
-![png](./categoria_2009.png)
-
-![png](./categoria_2010.png)
-
-![png](./categoria_2011.png)
-
-![png](./categoria_2012.png)
-
-![png](./categoria_2013.png)
-
-![png](./categoria_2014.png)
-
-![png](./categoria_2015.png)
-
-![png](./categoria_2016.png)
-
-![png](./categoria_2017.png)
-
-![png](./categoria_2018.png)
+![png](tasas_por_sexo_educacion.png)
 
 
 
-
+Las bases están disponibles en el sitio del [INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos), y las operaciones que conducen al gráfico en este documento: ![pdf](tasas_de_actividad.pdf)   
