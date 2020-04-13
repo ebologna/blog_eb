@@ -18,8 +18,7 @@ organizations:
   url: "https://www.unc.edu.ar"
 
 # Short bio (displayed in user profile at end of posts)
-bio:
-- Migraciones sur-sur, Análisis de Datos en Ciencias Sociales, Reproducibilidad de resultados de investigación
+bio: Migraciones sur-sur, Análisis de Datos en Ciencias Sociales, Reproducibilidad de resultados de investigación
 
 interests:
 - Migraciones internacionales  
