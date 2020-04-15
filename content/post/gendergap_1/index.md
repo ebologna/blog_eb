@@ -29,7 +29,7 @@ En esta series de posts nos concentramos en la dimensión económica, si bien se
 A modo de primer ejemplo, mostramos la evolución entre 2004 y 2018 de la participación en la actividad económica de varones y mujeres, según su nivel de educación.  
 Allí se aprecia la diferencia en la participación entre varones y mujeres y la estabilidad, tanto del nivel como de la diferencia a lo largo del tiempo. Las diferencias en la participación laboral entre mujeres y varones se reduce cuando se consideran niveles de educación más altos.  
 
-![Tasas por sexo y educación](tasas_por_sexo_educacion.jp2)
+![Tasas por sexo y educación](tasas_por_sexo_educacion.png)
 
 
 
