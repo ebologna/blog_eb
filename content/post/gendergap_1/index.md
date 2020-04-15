@@ -27,10 +27,21 @@ La literatura sobre la brecha de género suele centrarse en algunos emergentes v
 En esta series de posts nos concentramos en la dimensión económica, si bien se limita a solo un aspecto de la brecha de género —el económico—, se trata de aquel que a escala global muestra el comportamiento menos auspicioso. Para observar los cambios partimos de la diferencia en la forma en que se participan en la actividad económica mujeres y varones. Son diferentes las proporciones de  mujeres y varones que están en el mundo laboral, están afectados de manera diferente por la desocupación, trabajan cantidades de horas diferentes y los niveles de educación de mujeres y varones no son homogéneos. Hacia esas diferencias dirigiremos la mirada a fin de aportar factores que expliquen la brecha de género en lo económico. 
 
 A modo de primer ejemplo, mostramos la evolución entre 2004 y 2018 de la participación en la actividad económica de varones y mujeres, según su nivel de educación.  
-Allí se aprecia la diferencia en la participación entre varones y mujeres y la estabilidad, tanto del nivel como de la diferencia a lo largo del tiempo. Las diferencias en la participación laboral entre mujeres y varones se reduce cuando se consideran niveles de educación más altos.  
+Allí se aprecia la distinta participación en la actividad económica de varones y mujeres y la estabilidad, tanto del nivel como de la diferencia a lo largo del tiempo. Las distancias entre los grados de participación laboral de mujeres y varones se reducen cuando se consideran niveles de educación más altos.  
 
 ![Tasas por sexo y educación](tasas_por_sexo_educacion.png)
 
 
 
 Las bases están disponibles en el sitio del [INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos), y las operaciones que conducen al gráfico en este [sitio](https://github.com/ebologna/gender-gap/blob/master/tasas_de_actividad.pdf)
+
+
+Referencias  
+
+Beauregard, K. (2018). Women’s representation and gender gaps in political participation: do time and success matter in a cross-national perspective? Politics, Groups, and Identities, 6(2), 237–263. https://doi.org/10.1080/21565503.2016.1207548  
+Cotter, D. A., Hermsen, J. M., Ovadia, S., & Vanneman, R. (2001). The Glass Ceiling Effect. Social Forces, 80(2), 655–681. https://doi.org/10.1353/sof.2001.0091  
+Dahlin, J., & Härkönen, J. (2013). Cross-national differences in the gender gap in subjective health in Europe: Does country-level gender equality matter? Social Science & Medicine, 98, 24–28. https://doi.org/10.1016/J.SOCSCIMED.2013.08.028  
+Miller, W., Kerr, B., & Reid, M. (1999). A National Study of Gender-Based Occupational Segregation in Municipal Bureaucracies: Persistence of Glass Walls? Public Administration Review, 59(3), 218. https://doi.org/10.2307/3109950  
+O’Neill, J. (2003). The Gender Gap in Wages, circa 2000. American Economic Review, 93(2), 309–314. https://doi.org/10.1257/000282803321947254  
+Van Bavel, J., Schwartz, C. R., & Esteve, A. (2018). The Reversal of the Gender Gap in Education and Its Consequences for Family Life. Annual Review of Sociology, 44(1), 341–360. https://doi.org/10.1146/annurev-soc-073117-041215  
+
