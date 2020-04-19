@@ -1,6 +1,7 @@
 ---
 title: Pirámides de Población con ggplot2
 author: Eduardo Bologna
+summary: Una forma fácil de representar distribuciones de población por sexo y edad
 date: '2020-04-10'
 slug: piramides-2
 categories: []
@@ -52,7 +53,7 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
   ylab("Volumen")+xlab("Edades simples")
 ```
 
-![jpg](./volumen_edades_simples_df.jpg)  
+![jpg](./volumen_edades_simples_df.jpg)
 
 
 ### En relativos
@@ -68,7 +69,7 @@ ggplot()+ geom_bar(data=subset(eph.3.18, eph.3.18$sexo=="mujer"),
   scale_y_continuous(breaks=seq(-.02,.02,.01),
                      labels=paste0(100*abs(seq(-.02,.02,.01)),"%"))
 ```
-![jpg](./relativos_edades_simples_df.jpg)  
+![jpg](./relativos_edades_simples_df.jpg)
 
 
 ## A partir de la distribución
@@ -112,7 +113,7 @@ fill=sexo), stat = "identity")+ coord_flip()+
 
 ### Definición de las categorías de edad
 
-En la función `cut` se indican los puntos de corte y sus etiquetas, definidos primero como dos vectores. Para la categoría abierta final, elegimos un punto extremo de corte en 150 años. Por defecto los intervalos incluyen al límite superior, para evitarlo, y respetar la convención en demografía, se pide `right = FALSE`.  
+En la función `cut` se indican los puntos de corte y sus etiquetas, definidos primero como dos vectores. Para la categoría abierta final, elegimos un punto extremo de corte en 150 años. Por defecto los intervalos incluyen al límite superior, para evitarlo, y respetar la convención en demografía, se pide `right = FALSE`.
 ```{r}
 
 cortes_edad <- c(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,150)
