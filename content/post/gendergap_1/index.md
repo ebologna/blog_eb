@@ -1,5 +1,5 @@
 ---
-title: 'Categorías ocupacionales por sexo y educación'
+title: 'Participación económica por sexo y educación'
 subtitle: 'período 2005 - 2018'
 summary: 'Un inicio de análisis de las diferencias en la inserción laboral de mujeres y varones en Argentina'
 authors:
