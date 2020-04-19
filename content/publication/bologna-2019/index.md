@@ -13,7 +13,7 @@ the validity of the evaluations and the automation of their administration and c
 thematic unit it evaluates, cognitive level and degree of difficulty, so that precision exams can be built. Using _exams_ R package, the proposal is applicable to classroom or on-line courses."
 
 links:
-- name: descargar
+- name: acceder
   url: https://iase-web.org/documents/papers/sat2019/IASE2019%20Satellite%20110_BOLOGNA.pdf?1569666563
 
 
