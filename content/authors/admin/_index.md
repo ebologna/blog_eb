@@ -23,7 +23,7 @@ bio: Migraciones sur-sur, Análisis de Datos en Ciencias Sociales, Reproducibili
 interests:
 - Migraciones internacionales  
 - Métodos cuantitativos en Ciencias Sociales  
-- Reproducibilidad
+- Reproducibilidad  
 
 education:
   courses:
