@@ -34,7 +34,7 @@ Allí se aprecia la distinta participación en la actividad económica de varone
 
 
 
-Las bases están disponibles en el sitio del [INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos), y las operaciones que conducen al gráfico en este [sitio](https://github.com/ebologna/gender-gap/blob/master/tasas_de_actividad.pdf)
+Las bases están disponibles en el sitio del [INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos), y las operaciones que conducen al gráfico  [aquí](https://github.com/ebologna/gender-gap/blob/master/tasas_de_actividad.pdf)
 
 
 Referencias  
