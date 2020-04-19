@@ -1,7 +1,7 @@
 ---
 title: Conocimiento validado y toma de decisión
 author: ''
-summary: También las revistas prestigiosas pueden ser víctimas de publicaciones de mala
+summary: También las revistas prestigiosas pueden ser víctimas de publicaciones de mala calidad
 date: '2020-04-04'
 categories: []
 tags: []
@@ -30,17 +30,30 @@ En la actualidad, el problema se conoce como "crisis de reproducibilidad" y tien
 
 ## Referencias
 Alexander, R. (2013). Reinhart, Rogoff... and Herndon: The student who caught out the profs - BBC News. Retrieved March 14, 2020, from https://www.bbc.com/news/magazine-22223190
+
 Fernholz, T. (2013). How influential was the Rogoff-Reinhart study warning that high debt kills growth? — Quartz. Retrieved March 14, 2020, from https://qz.com/75117/how-influential-was-the-study-warning-high-debt-kills-growth/
+
 Herndon, T., & Pollin, R. (2013). High Public Debt Consistently Stifle Economic Growth? A Critique of Reinhart and Rogoff (No. 322). Amherst. Retrieved from https://www.peri.umass.edu/fileadmin/pdf/working_papers/working_papers_301-350/WP322.pdf%0Ahttp://www.peri.umass.edu/236/hash/31e2ff374b6377b2ddec04deaa6388b1/publication/566/
+
 Hussain, A., Ali, S., Ahmed, M., & Hussain, S. (2018). The Anti-vaccination Movement: A Regression in Modern Medicine. Cureus, 10(7). https://doi.org/10.7759/cureus.2919
+
 Kearns, C. E., Schmidt, L. A., & Glantz, S. A. (2016). Sugar Industry and Coronary Heart Disease Research: A Historical Analysis of Internal Industry Documents. JAMA Internal Medicine, 176(11), 1680–1685. https://doi.org/10.1001/jamainternmed.2016.5394
+
 Matthews-King, A. (2018). Who is Andrew Wakefield and what did the disgraced MMR doctor do? | The Independent. Retrieved from https://www.independent.co.uk/news/health/andrew-wakefield-who-is-mmr-doctor-anti-vaccine-anti-vaxxer-us-a8328326.html
+
 McGandy, R. B., Hegsted, D. M., & Stare, F. J. (1967). Dietary fats, carbohydrates and atherosclerotic vascular disease. The New England Journal of Medicine, 277(4), 186-92 contd. https://doi.org/10.1056/NEJM196707272770405
+
 Nestle, M. (2016). Food Industry Funding of Nutrition Research: The Relevance of History for Current Debates. JAMA Internal Medicine, 176(11), 1685–1686. https://doi.org/10.1001/jamainternmed.2016.5400
+
 Pollin, R. (2014). Public debt, GDP growth, and austerity: why Reinhart and Rogoff are wrong | OUPblog. Retrieved March 14, 2020, from https://blog.oup.com/2014/01/public-debt-gdp-growth-austerity-why-reinhart-and-rogoff-are-wrong/
+
 Rao, T. S. S., & Andrade, C. (2011, April). The MMR vaccine and autism: Sensation, refutation, retraction, and fraud. Indian Journal of Psychiatry. Wolters Kluwer -- Medknow Publications. https://doi.org/10.4103/0019-5545.82529
+
 Reinhart, C., & Rogoff, K. (2010). Growth in a Time of Debt. Cambridge, MA. https://doi.org/10.3386/w15639
+
 Smith, N., & Graham, T. (2017). Mapping the anti-vaccination movement on Facebook. Information Communication and Society, 1–18. https://doi.org/10.1080/1369118X.2017.1418406
+
 The Lancet. (2004). A STATEMENT BY THE EDITORS OF THE LANCET. Retrieved from https://www.thelancet.com/pb-assets/Lancet/extras/statement20Feb2004web.pdf
+
 Wakefield, A. J., Murch, S. H., Anthony, A., Linnell, J., Casson, D. M., Malik, M., … Walker-Smith, J. A. (1998). Retracted: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children. Lancet, 351(9103), 637–641. https://doi.org/10.1016/S0140-6736(97)11096-0
 
