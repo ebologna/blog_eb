@@ -93,6 +93,6 @@ date_format = "Jan 2006"
   date_start = "2016-01-03"
   date_end = ""
   description = """
-  Nuclea proyectos de investigación que estudian las interacciones entre procesos de estratificación social, vectores de desigualdad (género, etnia, origen migratorio) y políticas públicas.
+  Un programa que nuclea proyectos de investigación que estudian las interacciones entre procesos de estratificación social, vectores de desigualdad (género, etnia, origen migratorio) y políticas públicas.
   """
 +++
