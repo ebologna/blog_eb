@@ -35,7 +35,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Director"
   company = "Especialización en Producción y Análisis de Información para Políticas Públicas"
-  company_url = "https://sociales.unc.edu.ar/informacionparalaspolticaspublicas"
+  company_url = "https://sociales.unc.edu.ar/informacionparapoliticaspublicas"
   location = "Córdoba - Argentina"
   date_start = "2011-01-03"
   date_end = ""
