@@ -7,7 +7,6 @@ weight = 20  # Order that this section will appear in.
 
 title = "Hola"
 
-<meta name="google-site-verification" content="sBeSG1ZbCkQZfdJIYP8D3_eEQ31cMWTuyJQDmExk87I" />
 
 # Choose the user profile to display
 # This should be the username of a profile in your `content/authors/` folder.
