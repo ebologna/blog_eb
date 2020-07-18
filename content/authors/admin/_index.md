@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Eduardo León Bologna
+<meta name="google-site-verification" content="sBeSG1ZbCkQZfdJIYP8D3_eEQ31cMWTuyJQDmExk87I" />
 
 # Username (this should match the folder name)
 authors:
