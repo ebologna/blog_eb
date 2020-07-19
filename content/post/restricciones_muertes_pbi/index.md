@@ -3,15 +3,13 @@ authors:
 - admin
 categories: []
 date: "2020-07-16"
-slides:
-  highlight_style: dracula
-  theme: black
 summary: Diapos sobre la relación entre cuarentena, muertes atribuídas a COVID-19 y evolución proyectada del PBI
 tags:
 - COVID-19
 - Impacto económico cuarentena
 title: Cuarentena, muertes atribuídas a COVID-19 y evolución proyectada del PBI
 ---
+
 
 {{<slide background-image="./slides/restricciones_muertes_pbi.jpg">}}
 
