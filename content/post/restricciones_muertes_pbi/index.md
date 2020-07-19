@@ -6,6 +6,7 @@ author: |
   | Centro de Estudios Avanzados - Facultad de Ciencias Sociales
   | Universidad Nacional de Córdoba
 date: "18 julio, 2020"
+draft: true
 output:
   beamer_presentation:
     theme: "Berlin"
