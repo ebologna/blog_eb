@@ -16,7 +16,7 @@ role: Migraciones - Métodos Cuantitativos
 organizations:
 - name: Universidad Nacional de Córdoba
   url: "https://www.unc.edu.ar"
-- name: Programa Poblaci+on Desigualdad y Políticas Públicas
+- name: Programa Población Desigualdad y Políticas Públicas
   url: "http://pdypp.cea.unc.edu.ar/"
 
 # Short bio (displayed in user profile at end of posts)
