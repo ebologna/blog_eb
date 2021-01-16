@@ -5,7 +5,7 @@ summary: Una forma fácil de representar distribuciones de población por sexo y
 date: '2020-04-10'
 slug: piramides-2
 categories: []
-tags: ["pirámides de poblacion", "ggplot", "demografía"]
+tags: ["pirámides de poblacion", "ggplot2", "demografía"]
 bibliography: library.bib
 ---
 
