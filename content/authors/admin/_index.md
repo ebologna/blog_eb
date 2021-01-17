@@ -64,6 +64,6 @@ user_groups:
 - Visitors
 ---
 
-Soy  profesor e investigador de Estadística en Ciencias Sociales y de Migraciones en carreras de grado y posgrado. Actualmente dirijo la [Especialización en Producción y Análisis de Información para Políticas Públicas](https://sociales.unc.edu.ar/informacionparapoliticaspublicas) y el [Programa Población Desigualdad y Políticas Públicas](http://pdypp.cea.unc.edu.ar/), en el [Centro de Estudios Avanzados](https://sociales.unc.edu.ar/cea) de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/).
+Soy  investigador en análisis de datos en Ciencias Sociales y profesor de Estadística y de Migraciones en carreras de grado y posgrado. Actualmente dirijo la [Especialización en Producción y Análisis de Información para Políticas Públicas](https://sociales.unc.edu.ar/informacionparapoliticaspublicas) y el [Programa Población Desigualdad y Políticas Públicas](http://pdypp.cea.unc.edu.ar/), en el [Centro de Estudios Avanzados](https://sociales.unc.edu.ar/cea) de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/).
 
-El objetivo de este espacio es contribuir con investigadores y estudiantes que estén interesados en estos temas proveyéndoles un cierto marco analítico, referencias bibliográficas y fuentes de datos.
+El objetivo de este espacio es contribuir con investigadores y estudiantes que estén interesados en estos temas proveyéndoles un cierto marco analítico, referencias bibliográficas, ejemplos de aplicación y fuentes de datos.
