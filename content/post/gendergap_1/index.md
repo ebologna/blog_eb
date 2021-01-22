@@ -4,8 +4,7 @@ subtitle: 'período 2005 - 2018'
 summary: 'Un inicio de análisis de las diferencias en la inserción laboral de mujeres y varones en Argentina'
 authors:
 - admin
-tags:
-- Academic
+
 categories:
 - Demo
 date: "2020-04-13"
