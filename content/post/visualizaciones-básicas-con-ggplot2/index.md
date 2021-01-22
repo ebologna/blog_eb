@@ -1,10 +1,17 @@
 ---
 title: "Visualizaciones básicas con ggplot"
 author: "Eduardo Bologna"
-date: "22 enero, 2021"
-output:
-  html_document:
-    keep_md: yes
+date: "2021-01-22"
+authors:
+- admin
+
+categories:
+- Demo
+
+lastmod: "2021-01-22T00:00:00Z"
+tags: [ "visualización de datos", "ggplot2", "Encuesta Permanente de Hogares"]
+featured: true
+draft: false
 ---
 
 
