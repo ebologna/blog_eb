@@ -3,8 +3,7 @@ title: "Visualizaciones básicas con ggplot"
 author: "Eduardo Bologna"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  html_document:
-    keep_md: yes
+  html_document
 ---
 
 ```{r setup, include=FALSE}
