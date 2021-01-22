@@ -1,15 +1,11 @@
 ---
 title: "Visualizaciones básicas con ggplot"
-
 authors:
 - admin
-
 categories:
 - Demo
 date: "2020-04-13"
-lastmod: "2021-01-22T00:00:00Z"
 tags: [ "visualización de datos", "ggplot2", "Encuesta Permanente de Hogares"]
-featured: true
 draft: false
 ---
 
