@@ -18,25 +18,25 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "75%"
+  description = "25%"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Estadística"
-  description = "100%"  
+  description = "60%"  
   
 [[feature]]
   icon = "comments"
   icon_pack = "fas"
   name = "Habilidades Sociales"
-  description = "20%"
+  description = "5%"
     
 [[feature]]
   icon = "project-diagram"
   icon_pack = "fas"
   name = "Gestión de Proyectos"
-  description = "90%"
+  description = "10%"
 
 
 +++
