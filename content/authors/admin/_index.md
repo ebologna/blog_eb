@@ -29,7 +29,8 @@ interests:
 
 education:
   courses:
-  - course: Dr. en Demografía
+  - course: Dr. en Demografía  
+  - course: Dr. en Ciencias Sociales
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
