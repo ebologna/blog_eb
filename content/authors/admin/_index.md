@@ -16,7 +16,7 @@ role: Migraciones - Métodos Cuantitativos
 organizations:
 - name: Universidad Nacional de Córdoba
   url: "https://www.unc.edu.ar"
-- name: Programa Población Desigualdad y Políticas Públicas
+- name: Programa Migraciones y Movilidad Territorial de la Población
   url: "http://pdypp.cea.unc.edu.ar/"
 
 # Short bio (displayed in user profile at end of posts)
@@ -65,6 +65,6 @@ user_groups:
 - Visitors
 ---
 
-Soy  investigador en Ciencias Sociales y profesor de Estadística y de Migraciones en carreras de grado y posgrado. En el campo de la demografía, me especializo en el estudio de la migraciones sur-sur. Actualmente dirijo la [Especialización en Producción y Análisis de Información para Políticas Públicas](https://sociales.unc.edu.ar/informacionparapoliticaspublicas) y el [Programa Población Desigualdad y Políticas Públicas](http://pdypp.cea.unc.edu.ar/), en el [Centro de Estudios Avanzados](https://sociales.unc.edu.ar/cea) de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/).
+Soy  investigador en Ciencias Sociales y profesor de Estadística y de Migraciones en carreras de grado y posgrado. En el campo de la demografía, me especializo en el estudio de la migraciones sur-sur. Actualmente dirijo la [Especialización en Producción y Análisis de Información para Políticas Públicas](https://sociales.unc.edu.ar/informacionparapoliticaspublicas) y el [Programa Migraciones y Movilidad Territorial de la Población](http://pdypp.cea.unc.edu.ar/), en el [Centro de Estudios Avanzados](https://sociales.unc.edu.ar/cea) de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/).
 
 Me gusta explorar nuevos recursos metodológicos, tanto en investigación como en docencia. El objetivo de este espacio es doble; por un lado, ensayar esta herramienta de producción de blogs, en R, y por otro contribuir con investigadores y estudiantes que estén interesados en temas cercanos a los míos, proveyéndoles un cierto marco analítico, referencias bibliográficas, ejemplos de aplicación y fuentes de datos.
